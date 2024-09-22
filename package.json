@@ -1,0 +1,12 @@
+{
+    "name": "bfhl-project",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node backend/index.js",
+      "build": "cd frontend && npm install && npm run build"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "cors": "^2.8.5"
+    }
+  }
